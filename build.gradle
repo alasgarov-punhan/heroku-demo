@@ -34,3 +34,9 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+jar {
+    archiveBaseName.set('heroku-demo')
+    archiveVersion.set('1.0.0')
+    archiveClassifier.set('')
+}

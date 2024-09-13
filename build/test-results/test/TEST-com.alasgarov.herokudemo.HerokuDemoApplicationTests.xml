@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.alasgarov.herokudemo.HerokuDemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-13T23:50:16" hostname="punhanAlasgarovs-MacBook-Pro.local" time="0.41">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.alasgarov.herokudemo.HerokuDemoApplicationTests" time="0.41"/>
+  <system-out><![CDATA[03:50:16.068 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.alasgarov.herokudemo.HerokuDemoApplicationTests]: HerokuDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+03:50:16.109 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.alasgarov.herokudemo.HerokuDemoApplication for test class com.alasgarov.herokudemo.HerokuDemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-09-14T03:50:16.293+04:00  INFO 45817 --- [    Test worker] c.a.h.HerokuDemoApplicationTests         : Starting HerokuDemoApplicationTests using Java 17.0.9 with PID 45817 (started by punhan in /Users/punhan/Development/IntellijWorkspace/Personal/heroku-demo)
+2024-09-14T03:50:16.294+04:00  INFO 45817 --- [    Test worker] c.a.h.HerokuDemoApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-09-14T03:50:16.720+04:00  INFO 45817 --- [    Test worker] c.a.h.HerokuDemoApplicationTests         : Started HerokuDemoApplicationTests in 0.558 seconds (process running for 1.011)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
